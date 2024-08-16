@@ -35,7 +35,7 @@ if btn:
                   unsafe_allow_html=True)
 
          def showDetails(label, value):
-                  st.write(f"<h2><li>{label}: ₹{value}</li></h2>",
+                  st.write(f"<li style=font-size:27px;>{label}: ₹{value}</li>",
                            unsafe_allow_html=True)
 
          showDetails("Loan Amount", amount)
