@@ -1,7 +1,6 @@
 import streamlit as st
 import pandas as pd
 
-# LoanX
 st.set_page_config(
     page_title="Mortgage Calculator",
     page_icon="icon.png",
